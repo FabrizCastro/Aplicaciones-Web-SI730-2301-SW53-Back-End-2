@@ -20,7 +20,7 @@ public class LearningCenterDBContext : DbContext
         if (!optionsBuilder.IsConfigured)
         {
             var serverVersion = new MySqlServerVersion(new Version(8, 0, 29));
-            optionsBuilder.UseMySql("Server=localhost,3306;Uid=root;Pwd=LaUpc123*;Database=LearningCenterDB;", serverVersion);
+            optionsBuilder.UseMySql("Server=localhost,3306;Uid=root;Pwd=12345678;Database=LearningCenterDB;", serverVersion);
         }
     }
     
